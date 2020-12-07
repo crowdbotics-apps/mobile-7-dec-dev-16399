@@ -31,10 +31,10 @@ class Userss(models.Model):
         blank=True,
     )
     gjhgjhg = models.GenericIPAddressField(
-        protocol="both",
-        unpack_ipv4=False,
         null=True,
         blank=True,
+        protocol="both",
+        unpack_ipv4=False,
     )
 
 
