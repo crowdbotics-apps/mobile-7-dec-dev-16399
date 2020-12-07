@@ -30,8 +30,14 @@ export default class Blank extends React.Component {
     <View>
       <Text>Sample text content</Text>
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Text style={styles.Text_4}>Sample text content</Text>
     </View>
   )
 }
 
-const styles = StyleSheet.create({ View_1: {}, Text_2: {}, Button_3: {} })
+const styles = StyleSheet.create({
+  View_1: {},
+  Text_2: {},
+  Button_3: {},
+  Text_4: { color: "#f31212" }
+})
