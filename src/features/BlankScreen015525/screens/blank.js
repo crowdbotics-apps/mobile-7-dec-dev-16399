@@ -36,6 +36,8 @@ export default class Blank extends React.Component {
         <View style={styles.View_6} />
         <View style={styles.View_7} />
       </View>
+      <Text>Sample text content</Text>
+      <Text>Sample text content</Text>
     </View>
   )
 }
@@ -47,5 +49,7 @@ const styles = StyleSheet.create({
   View_4: { width: 19 },
   View_5: { width: 100, height: 100 },
   View_6: { height: 39 },
-  View_7: { height: 10 }
+  View_7: { height: 10 },
+  Text_8: {},
+  Text_9: {}
 })
