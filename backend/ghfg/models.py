@@ -22,6 +22,20 @@ class Userss(models.Model):
     updated_at = models.DateTimeField(
         auto_now=True,
     )
+    jhgjhghjghjg = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
+    hfhgfhgf = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
+    gjhgjhg = models.GenericIPAddressField(
+        protocol="both",
+        unpack_ipv4=False,
+        null=True,
+        blank=True,
+    )
 
 
 # Create your models here.
