@@ -24,18 +24,9 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { TextInput_3: "" }
+  state = {}
 
-  render = () => (
-    <View>
-      <Text>Sample text content</Text>
-      <TextInput
-        placeholder="Sample text input placeholder"
-        value={this.state.TextInput_3}
-        onChangeText={nextValue => this.setState({ TextInput_3: nextValue })}
-      />
-    </View>
-  )
+  render = () => <View />
 }
 
-const styles = StyleSheet.create({ View_1: {}, Text_2: {}, TextInput_3: {} })
+const styles = StyleSheet.create({ View_1: {} })
